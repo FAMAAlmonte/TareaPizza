@@ -20,8 +20,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xft-il-fMV">
-                                <rect key="frame" x="162" y="397" width="110" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xft-il-fMV">
+                                <rect key="frame" x="162" y="353" width="110" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="JA3-yU-EYp"/>
                                     <constraint firstAttribute="height" constant="30" id="dEl-er-W6T"/>
@@ -34,8 +34,8 @@
                                     <segue destination="xWY-hW-84f" kind="show" id="RC9-HI-syY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qD8-Hj-XL3">
-                                <rect key="frame" x="307" y="332" width="135" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qD8-Hj-XL3">
+                                <rect key="frame" x="307" y="288" width="135" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="135" id="E2E-nN-62s"/>
                                     <constraint firstAttribute="height" constant="30" id="oWY-v6-S4d"/>
@@ -48,14 +48,14 @@
                                     <segue destination="xWY-hW-84f" kind="show" id="DaV-YJ-R70"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Elije el tamaño de tu Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ari-p4-fwZ">
-                                <rect key="frame" x="206" y="72" width="189" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elije el tamaño de tu Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ari-p4-fwZ">
+                                <rect key="frame" x="206" y="28" width="189" height="18"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79u-qo-1Hx">
-                                <rect key="frame" x="162" y="135" width="100" height="94"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79u-qo-1Hx">
+                                <rect key="frame" x="162" y="91" width="100" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="9fi-AV-1ZT"/>
                                     <constraint firstAttribute="width" constant="100" id="UK2-L7-uRZ"/>
@@ -67,8 +67,8 @@
                                     <segue destination="xWY-hW-84f" kind="show" id="Rwp-4d-Cq0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezF-fs-2fM">
-                                <rect key="frame" x="162" y="284" width="110" height="105"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezF-fs-2fM">
+                                <rect key="frame" x="162" y="240" width="110" height="105"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="5Dg-ve-1Td"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="QPb-EG-WCI"/>
@@ -80,8 +80,8 @@
                                     <segue destination="xWY-hW-84f" kind="show" id="0ei-z2-UCk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5j-c4-vhH">
-                                <rect key="frame" x="307" y="199" width="135" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5j-c4-vhH">
+                                <rect key="frame" x="307" y="155" width="135" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="3XU-1k-fHy"/>
                                     <constraint firstAttribute="width" constant="135" id="9uQ-2c-s2H"/>
@@ -107,8 +107,8 @@
                                     <segue destination="xWY-hW-84f" kind="show" id="2tO-jD-hcj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-sD-f5e">
-                                <rect key="frame" x="162" y="237" width="100" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-sD-f5e">
+                                <rect key="frame" x="162" y="193" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="7Zh-Tv-NU8"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="AGj-k5-VVg"/>
@@ -325,14 +325,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Elije el Queso de tu Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qm5-si-D6H">
-                                <rect key="frame" x="176" y="72" width="249" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elije el Queso de tu Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qm5-si-D6H">
+                                <rect key="frame" x="176" y="28" width="249" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeK-uM-akl">
-                                <rect key="frame" x="143" y="273" width="150" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeK-uM-akl">
+                                <rect key="frame" x="143" y="229" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dQV-M2-0aT"/>
                                     <constraint firstAttribute="width" constant="150" id="rOA-bg-nim"/>
@@ -345,8 +345,8 @@
                                     <segue destination="oAR-JL-t1p" kind="show" id="8SH-Dk-Zif"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AM7-n4-1z2">
-                                <rect key="frame" x="311" y="273" width="150" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AM7-n4-1z2">
+                                <rect key="frame" x="311" y="229" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="F4j-xU-Xxh"/>
                                     <constraint firstAttribute="width" constant="150" id="hBm-zz-Zft"/>
@@ -359,8 +359,8 @@
                                     <segue destination="oAR-JL-t1p" kind="show" id="qh0-p5-Xdl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbt-Fk-sAV">
-                                <rect key="frame" x="143" y="469" width="150" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbt-Fk-sAV">
+                                <rect key="frame" x="143" y="425" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="63P-45-bwg"/>
                                     <constraint firstAttribute="width" constant="150" id="ose-Ue-8Zq"/>
@@ -373,8 +373,8 @@
                                     <segue destination="oAR-JL-t1p" kind="show" id="Tnf-Gp-dGW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCn-5w-SBp">
-                                <rect key="frame" x="311" y="469" width="150" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCn-5w-SBp">
+                                <rect key="frame" x="311" y="425" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="39p-f3-vz9"/>
                                     <constraint firstAttribute="width" constant="150" id="Zuo-7e-CJs"/>
@@ -387,8 +387,8 @@
                                     <segue destination="oAR-JL-t1p" kind="show" id="IRP-xO-36J"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSK-AR-yR9">
-                                <rect key="frame" x="143" y="115" width="150" height="150"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSK-AR-yR9">
+                                <rect key="frame" x="143" y="71" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Gvf-xn-ng7"/>
                                     <constraint firstAttribute="height" constant="150" id="WM7-rH-88u"/>
@@ -398,8 +398,8 @@
                                     <segue destination="oAR-JL-t1p" kind="show" id="TzB-qq-cnG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CrG-ny-iUH">
-                                <rect key="frame" x="311" y="115" width="150" height="150"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CrG-ny-iUH">
+                                <rect key="frame" x="311" y="71" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="hu9-dS-3Cw"/>
                                     <constraint firstAttribute="height" constant="150" id="wiw-aS-8Ux"/>
@@ -409,8 +409,8 @@
                                     <segue destination="oAR-JL-t1p" kind="show" id="WNQ-2e-Hnv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQA-rw-JiL">
-                                <rect key="frame" x="143" y="311" width="150" height="150"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQA-rw-JiL">
+                                <rect key="frame" x="143" y="267" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="hh9-p0-GiD"/>
                                     <constraint firstAttribute="width" constant="150" id="oh6-f2-jLp"/>
@@ -420,8 +420,8 @@
                                     <segue destination="oAR-JL-t1p" kind="show" id="8ie-Kr-jcL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTM-YT-adC">
-                                <rect key="frame" x="311" y="311" width="150" height="150"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTM-YT-adC">
+                                <rect key="frame" x="311" y="267" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="7e4-pP-cEF"/>
                                     <constraint firstAttribute="height" constant="150" id="pOb-yd-uOD"/>

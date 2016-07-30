@@ -16,8 +16,8 @@ class VistaTipoDeMasa: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Masa"
+        
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

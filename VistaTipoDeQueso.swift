@@ -18,7 +18,6 @@ class VistaTipoDeQueso: UIViewController {
         super.viewDidLoad()
         self.title = "Queso"
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

@@ -48,7 +48,6 @@ class VistaOrden: UIViewController {
         otroPedido.hidden = true
         self.title = "Confirmación de Orden"
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

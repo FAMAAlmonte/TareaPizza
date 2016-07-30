@@ -51,7 +51,6 @@ class VistaIngredientes: UIViewController {
         atun.addTarget(self, action: #selector(VistaIngredientes.botonPres(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         carnes.addTarget(self, action: #selector(VistaIngredientes.botonPres(_:)), forControlEvents: UIControlEvents.TouchUpInside)
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
