@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var otroPedido:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.title="Tamaño de la Pizza"
+        self.title="Tamaño"
         // Do any additional setup after loading the view, typically from a nib.
     }
 

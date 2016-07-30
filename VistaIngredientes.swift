@@ -36,7 +36,7 @@ class VistaIngredientes: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title="Ingredientes"
+        self.title = "Ingredientes"
         
         jamon.addTarget(self, action: #selector(VistaIngredientes.botonPres(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         cebolla.addTarget(self, action: #selector(VistaIngredientes.botonPres(_:)), forControlEvents: UIControlEvents.TouchUpInside)
